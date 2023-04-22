@@ -11,13 +11,12 @@ public class Student {
 	static {
 		 
 		 count=101;
-		
-		 
-		
+	
 	}
 	public Student(){
 		
 	}
+	
 	public Student(String name,String address,String branch,double marks) {
 		
 	
@@ -29,30 +28,39 @@ public class Student {
 		
 		
 	}
+	
 	public String getName() {
 		return name;
 	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 	public String getAddress() {
 		return address;
 	}
+	
 	public void setAddress(String address) {
 		this.address = address;
 	}
+	
 	public String getBranch() {
 		return branch;
 	}
+	
 	public void setBranch(String branch) {
 		this.branch = branch;
 	}
+	
 	public double getMarks() {
 		return marks;
 	}
+	
 	public void setMarks(double marks) {
 		this.marks = marks;
 	}
+	
 	public static int getRollno() {
 		return rollno;
 	}
