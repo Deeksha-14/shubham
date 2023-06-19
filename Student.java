@@ -7,20 +7,20 @@ public class Student {
 	private String address;
 	private String branch;
 	private double marks;
-	private static int  count;
+	private static int count;
 	static {
 		 
 		 count=101;
 	
 	}
 	public Student(){
-		
+		super();
 	}
 	
 	public Student(String name,String address,String branch,double marks) {
 		
 	
-		this.rollno =count++;
+		
 		this.name=name;
 		this.address=address;
 		this.branch=branch;
